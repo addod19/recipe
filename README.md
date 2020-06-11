@@ -29,10 +29,9 @@
 
 ## Built With
 
-- HTML,
-- CSS,
+- HTML
+- CSS
 - Javascript es6
-- Bootstrap for styling and responsiveness
 
 ## Live Demo
 
