@@ -9,6 +9,17 @@ const Main = () => {
     const [search, setSearch] = useState('');
     const [query, setQuery] = useState('fish');
 
+    useEffect(() => {
+        GET_RECEPIES();
+    }, [query]);
+    
+    const GET_RECEPIES = async () => {
+        const RESPONSE = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
+        const DATA = await RESPONSE.json();
+        setRecipes(DATA.hits);
+        console.log(DATA.hits);
+    };
+
     return(
         <main>
             <h1 className="mainTitle">Search your favorite recipe now!!!</h1>
