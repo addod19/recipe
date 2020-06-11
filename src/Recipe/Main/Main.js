@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 import Recipe from './Recipe';
+import './Main.css';
 
 const Main = () => {
     const APP_ID = '67d62c8a';
@@ -31,27 +32,26 @@ const Main = () => {
     }
 
     return(
-        <main>
-            <h1 className="mainTitle">Search your favorite recipe now!!!</h1>
-            <p>super cool react app</p>
+        <main className="wrapper">
+            <h1 className="mainTitle">Search your favorite recipe</h1>
             <form onSubmit={getSearch} className="search-form">
                 <input className="search-bar" type="text" value={search} onChange={UPDATE_SEARCH} />
                 <button className="search-button" type="submit">
-                    Search
+                Search
                 </button>
-            </form>
+            </form> 
             <div className="recipes">
                 {recipes.map(recipe => (
-                    <Recipe 
-                        key={recipe.recipe.label}
-                        title={recipe.recipe.label} 
-                        calories={`${Math.round(recipe.recipe.calories * 100) / 100} Calories`}
-                        image={recipe.recipe.image}
-                        ingredients={recipe.recipe.ingredients}>
-
-                    </Recipe>
+                <Recipe 
+                key={recipe.recipe.label}
+                title={recipe.recipe.label} 
+                image={recipe.recipe.image}
+                calories={`${Math.round(recipe.recipe.calories * 100) / 100}`}
+                ingredients={recipe.recipe.ingredients}>
+                </Recipe>
                 ))}
             </div>
+
         </main>
     );
 }
