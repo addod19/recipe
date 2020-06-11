@@ -43,7 +43,7 @@ li {
 }
 nav {
     top: 0;
-    background: black;
+    background: cadetblue;
     color: white;
     /* box-shadow: 5px 10px 5px rgba(54, 23, 231, 0.671), -5px -5px 5px rgb(168, 167, 167, 0.2); */
   }
@@ -67,9 +67,16 @@ footer {
 }
  
 @media only screen and (max-width: 900px) {
+    nav,
+    footer {
+        width: 100%;
+    }
     .recipes {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+    }
+    .calories {
+        margin-bottom: 2em;
     }
     h5 {
       margin-bottom: -1em;

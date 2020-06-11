@@ -1,68 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# A Simple Recipe App
 
-## Available Scripts
+> Building a Recipe App with the React and Edamam API
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+1. User can search a any recipe of their choice
+2. User can use this app as a guide in their daily cooking lives
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Future Feature (v1.12)
 
-### `yarn test`
+1. Improve the UI
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Screenshots
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Desktop/Laptoop device
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<img src="l.png" alt="">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tables device
 
-### `yarn eject`
+<img src="m.png" alt="">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Mobile device
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="s.png" alt="">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- HTML,
+- CSS,
+- Javascript es6
+- Bootstrap for styling and responsiveness
 
-## Learn More
+## Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Live Demo Link](https://blissful-babbage-dd9079.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Getting Started
 
-### Code Splitting
+To get a local copy up and running follow these simple example steps.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. `git clone https://github.com/addod19/recipe.git`
+2. `cd recipe`
+3. `git checkout start`
+4. `yarn i`
+5. `yarn start`
+6. Use live server on VSCode to open the index.html with your favorite browser
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- A modern browser
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- Signup for netlify app
+- Authorize the app to use Github
+- Configure the app for deployment
 
-### `yarn build` fails to minify
+## Authors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+👤 **Author1**
+
+- Github: [@addod19](https://github.com/addod19)
+- Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
+- Linkedin: [Daniel Larbi Addo](https://linkedin.com/in/daniel-larbi-addo/)
+- Email: [Daniel Larbi Addo](addodaniellarbi@gmail.com)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/addod19/recipe/issues).
+
+1. Fork it (https://github.com/addod19/recipe/fork)
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
+
+## Show your support
+
+Give us a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [Apache](lic.url) licensed.
