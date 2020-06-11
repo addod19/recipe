@@ -20,6 +20,15 @@ const Main = () => {
         console.log(DATA.hits);
     };
 
+    const UPDATE_SEARCH = e => {
+        setSearch(e.target.value);
+    }
+
+    const getSearch = e => {
+        e.preventDefault();
+        setQuery(search);
+    }
+
     return(
         <main>
             <h1 className="mainTitle">Search your favorite recipe now!!!</h1>
