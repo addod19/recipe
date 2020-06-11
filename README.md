@@ -29,8 +29,7 @@
 
 ## Built With
 
-- HTML
-- CSS
+- React
 - Javascript es6
 
 ## Live Demo
